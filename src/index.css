@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sky: #A0D8EF;
+  --color-grass: #7BC67B;
+  --color-dirt: #8B5A2B;
+  --color-panel: rgba(255, 255, 255, 0.92);
+  --color-accent: #FFD700;
+  --color-primary: #4A90E2;
+  --color-text: #2C3E50;
+  --font-main: 'Helvetica Neue', Arial, sans-serif;
+}
+
+* {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+body {
+  background-color: var(--color-sky);
+  font-family: var(--font-main);
+  color: var(--color-text);
+  overflow: hidden;
+}
